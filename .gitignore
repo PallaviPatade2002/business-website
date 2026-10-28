@@ -1,0 +1,8 @@
+node_modules/
+*.db
+.env
+dist/
+build/
+.dart_tool/
+.gradle/
+local.properties
