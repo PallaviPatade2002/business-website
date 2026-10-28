@@ -14,6 +14,16 @@ A ready-to-customise website for any local business, plus a Flutter app for the 
 
 Demo admin login: phone `9000000001`, password `123456`.
 
+## Screenshots
+
+| Website | Admin: enquiries |
+| --- | --- |
+| ![Website](docs/website.png) | ![Admin](docs/admin.png) |
+
+| Mobile |
+| --- |
+| ![Mobile](docs/mobile.png) |
+
 ## Run locally
 
 ```bash
