@@ -1,5 +1,9 @@
 # Business Website + Enquiry Desk
 
+**Live demo:** https://business-website-ied4.onrender.com  ·  Admin: https://business-website-ied4.onrender.com/admin (phone `9000000001`, password `123456`)
+
+> Free hosting: the first load can take ~30–60 s while the server wakes up; demo data resets on restart.
+
 A ready-to-customise website for any local business, plus a Flutter app for the owner to manage customer enquiries.
 
 - **web/** – React (Vite) website: animated hero, services, how it works, about, enquiry form, floating WhatsApp button, and an owner admin at `/admin` (edit content, services, enquiries).
