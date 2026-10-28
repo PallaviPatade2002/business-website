@@ -1,10 +1,12 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Change this to your deployed server (https) before building the release APK.
-const String defaultBaseUrl = 'http://10.0.2.2:5002';
+/// The browser demo talks to the live server; the Android emulator reaches the PC's localhost via 10.0.2.2.
+/// Change the Android value to your deployed (https) server before building a release APK.
+const String defaultBaseUrl = kIsWeb ? 'https://business-website-ied4.onrender.com' : 'http://10.0.2.2:5002';
 
 class ApiException implements Exception {
   ApiException(this.message);
